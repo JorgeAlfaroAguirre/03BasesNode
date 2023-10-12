@@ -1,8 +1,9 @@
 # 03BasesNode
-Sección 3 del Curso de Bases de Node de Fernando Herrera
+Section 3 of Fernando Herrera's Node Basics Course
 
-Esta app crea archivos txt con las tablas, de acuerdo a las opciones que se pasen como argumento en args, para ver estas opciones debes escribir node app --help
+This app creates text files with tables according to the options passed as arguments in args. To view these options, you should type node app --help.
 
+```
 $ node app --help
 Options:
       --help     Show help                                             [boolean]
@@ -12,3 +13,4 @@ Options:
                                                       [boolean] [default: false]
   -n, --number   The last number to be multiplied, the default is 10.
                                                           [number] [default: 10]
+```
